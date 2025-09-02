@@ -76,6 +76,15 @@ git checkout main
 git merge feature-branch
 ```
 
+### Delete Branch
+
+```bash
+# 🗑️ Deleting branches
+git branch -d feature-x       # delete local branch (safe, refuses if unmerged)
+git branch -D feature-x       # force delete local branch (even if unmerged)
+git push origin --delete feature-x   # delete remote branch on origin
+```
+
 ---
 
 ## 📌 3. Pull & Push
