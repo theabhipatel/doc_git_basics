@@ -47,10 +47,12 @@ git log --oneline --graph --decorate --all
 
 ## 📌 2. Branching
 
-### Check local Branches
+### Check  Branches
 
 ```bash
-git branch
+git branch         # local
+git branch -r      # only remote branches
+git branch -a      # local + remote
 ```
 
 ### Create & Switch Branch
