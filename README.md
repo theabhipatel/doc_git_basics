@@ -24,6 +24,16 @@ git status
 git add <file>   # stage a file
 git add .  # stage all files
 git commit -m "message"
+
+---
+# Other use cases
+
+git add .                         # stage all tracked + untracked changes in current dir
+git add -p                        # interactively stage hunks (choose parts of changes)
+git restore --staged file.txt     # unstage file, keep changes in working directory
+git commit -m "Add user signup"   # commit with a single-line message
+git commit -m "Add signup form" -m "Includes validation & error handling."
+                                  # commit with title + detailed description
 ```
 
 ### See Commit History
