@@ -161,6 +161,21 @@ git stash list
 git stash apply
 ```
 
+### Apply Last Stash and remove from stash
+
+```bash
+git stash pop
+```
+
+### Comparison
+
+```bash
+git stash          # save current changes
+git stash list     # shows saved stashes
+git stash apply    # reapplies changes but stash still in the list
+git stash pop      # reapplies changes AND removes the stash
+```
+
 ---
 
 ## 📌 8. Tags & Releases
