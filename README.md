@@ -58,13 +58,15 @@ git branch -a      # local + remote
 ### Create & Switch Branch
 
 ```bash
-git checkout -b feature-branch
+git checkout -b feature-branch   # old way
+git switch -c feature-branch     # modern way
 ```
 
 ### Switch to Branch
 
 ```bash
-git checkout main
+git checkout main    # old way
+git switch main      # modern way
 ```
 
 ### Merge Branch
