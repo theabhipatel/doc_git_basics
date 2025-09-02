@@ -152,7 +152,22 @@ git rebase --continue
 
 ---
 
-## 📌 6. Collaboration
+## 📌 6. Working with Remote
+
+```bash
+
+# 🌍 Remotes
+git remote -v                        # list remotes with URLs
+git remote add origin <url>          # add a new remote called origin
+git remote rename origin upstream   # rename remote from origin → upstream
+git remote set-url origin <url>     # change the URL of origin remote
+
+```
+
+
+---
+
+## 📌 7. Collaboration
 
 ### Create a Pull Request (PR)
 
@@ -164,7 +179,7 @@ git rebase --continue
 
 ---
 
-## 📌 7. Stashing
+## 📌 8. Stashing
 
 ### Save Work Temporarily
 
@@ -201,7 +216,7 @@ git stash pop      # reapplies changes AND removes the stash
 
 ---
 
-## 📌 8. Tags & Releases
+## 📌 9. Tags & Releases
 
 ### Create Tag
 
@@ -217,7 +232,7 @@ git push origin --tags
 
 ---
 
-## 📌 9. Advanced Tips
+## 📌 10. Advanced Tips
 
 - `git cherry-pick <commit>` → Apply a specific commit from another branch.
 - `git reflog` → View all HEAD changes (useful for recovery).
